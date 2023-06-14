@@ -1,38 +1,7 @@
-body { 
-
-    height: 100vh;
-    margin: 0;
-    
-  display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-h1, h4 {
-  
-    justify-content: center;
-    align-items: center;
-}
-
-.container {
-    border: 1px solid black;
-    width: 1200px;
-    height: 800px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 
-.imagens {
-   /* border: 1px solid red; */
-    width: 220px;
-    height: 220px;
-    margin: 5px;
-   
-}
 
+/* 
 #btn-vazio, #btn-final, #btn-torneira {
    border: none;
    background-color: white;
@@ -49,7 +18,7 @@ h1, h4 {
 
 
 
-/* virar esquerda    transform: rotateY(180deg); 
+virar esquerda    transform: rotateY(180deg); 
 
 
 
