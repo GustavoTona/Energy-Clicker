@@ -1,12 +1,15 @@
-const btnEnergy = document.getElementById("btn-energy");
-const counterFinal = document.getElementById("counter-final");
+var valor = 0; // valor inicial
+var intervalId; // variável para armazenar o identificador do temporizador
 
-let contadorT = 0;
+function incrementar() {
+  valor += 1;
+  document.getElementById("resultado").textContent = valor;
+}
 
-counterFinal.innerHTML = contadorT;
+function iniciarAutomatico() {
+  intervalId = setInterval(incrementar, 3000); // incrementa o valor a cada segundo (1000 ms)
+}
 
-btnEnergy.addEventListener("click", function(){
-   counterFinal.innerHTML = ++contadorT;
-});
-
-console.log(contadorT);
+function pararAutomatico() {
+  clearInterval(intervalId); // interrompe o incremento automático
+}
