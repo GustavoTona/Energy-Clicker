@@ -1,0 +1,80 @@
+body { 
+
+    height: 100vh;
+    margin: 0;
+    
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+h1, h4 {
+  
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid black;
+    width: 1200px;
+    height: 800px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imagens {
+   /* border: 1px solid red; */
+    width: 220px;
+    height: 220px;
+    margin: 5px;
+   
+}
+
+#btn-vazio, #btn-final, #btn-torneira {
+   border: none;
+   background-color: white;
+}
+
+ #btn-torneira:active {
+    transform: translateY(5px);
+}
+
+#btn-vazio:active{ 
+    transform: translateY(5px);
+}
+
+
+
+
+/* virar esquerda    transform: rotateY(180deg); 
+
+
+
+
+.progress-bar{
+
+    --progress: 50;
+    height: 50px;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+  }
+  
+  .progress-bar::before{
+    content: "";
+    /* aqui estamos chamando
+      nossa variável. Como a
+      largura do pseudo-elemento
+      estará entre 0% e 100%, temos
+      que converter o valor da nossa
+      variável em porcentagem. Para
+      isso, basta multiplicar por 1%.
+     
+    width: calc(var(--progress) * 1%);
+    background-color: red;
+}
+
+ */
