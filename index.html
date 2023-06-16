@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Energy Clicker </title>
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="shortcut icon" href="./img/energy-drink.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/btn-style.css">
+    <link rel="shortcut icon" href="./img/icon-fav.png" type="image/x-icon">
     
 </head>
 
@@ -16,23 +17,28 @@
     <h1>Energy Clicker</h1>
     <div class="container">
 
-        <h1>Valor: <span id="resultado">0</span></h1>
+        <h1>Quantidade: <span id="resultado">0</span></h1>
 
         <div class="energy">
-            <button onclick="incrementar()">
+            <button id="energybtn" onclick="incrementar()">
                 <img src="./img/energy-drink.png" alt="" width="170" height="170">
             </button>
-
         </div>
-    </div>
+        
+   
 
+    <h2>Produção: <span id="producaoSec"> 0/s</span></h2>
+    
     <div class="upgrade-container">
         
         <button onclick="iniciarAutomatico()">+1 WORKER (0.03s)</button>
+        <p>Barato e lento, mas o bom para gerar empregos.</p>
         <button onclick="robotBooster()">+1 ROBOT (0.03s)</button>
-
+        <p>Consegue um robo com duas mãos roboticas.</p>
         <button onclick="btnSell()">PARAR</button>
     </div>
+
+</div>
 
     <script src="./script/script.js"></script>
 </body>

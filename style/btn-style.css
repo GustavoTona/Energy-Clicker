@@ -1,0 +1,10 @@
+
+#energybtn {
+  border: none;
+  background-color: 255, 208, 98;
+}
+
+#energybtn:active {
+   transform: translateY(5px);
+}
+
