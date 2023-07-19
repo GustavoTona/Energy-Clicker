@@ -11,6 +11,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid #4CAF50;
 }
 
 
@@ -29,7 +30,6 @@ h2 {
 }
 
 .producaoec {
-  text-align: center;
   margin-bottom: 20px;
 }
 

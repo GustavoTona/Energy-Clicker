@@ -17,28 +17,30 @@
     <h1>Energy Clicker</h1>
     <div class="container">
 
-        <h1>Quantidade: <span id="resultado">0</span></h1>
+        <h1>Quantidade: &nbsp; <span id="resultado">0</span></h1>
 
         <div class="energy">
             <button id="energybtn" onclick="incrementar()">
                 <img src="./img/energy-drink.png" alt="" width="170" height="170">
             </button>
+
+            <h2>Produção:&nbsp <span id="producaoSec"> 0/s</span></h2>
         </div>
         
    
 
-    <h2>Produção: <span id="producaoSec"> 0/s</span></h2>
+         
     
-    <div class="upgrade-container">
+        <div class="upgrade-container">
         
-        <button onclick="iniciarAutomatico()">+1 WORKER (0.03s)</button>
-        <p>Barato e lento, mas o bom para gerar empregos.</p>
-        <button onclick="robotBooster()">+1 ROBOT (0.03s)</button>
-        <p>Consegue um robo com duas mãos roboticas.</p>
-        <button onclick="btnSell()">PARAR</button>
-    </div>
+            <button onclick="iniciarAutomatico()">+1 WORKER (0.03s)</button>
+            <p>Barato e lento, mas o bom para gerar empregos.</p>
+            <button onclick="robotBooster()">+1 ROBOT (0.03s)</button>
+            <p>Consegue um robo com duas mãos roboticas.</p>
+            <button onclick="btnSell()">PARAR</button>
+         </div>
 
-</div>
+    </div>
 
     <script src="./script/script.js"></script>
 </body>
